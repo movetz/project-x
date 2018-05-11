@@ -1,4 +1,4 @@
-#Project X
+# Project X
 
 Example of RESTful API based on PSR-15 like handlers and HTTP middleware.
 
@@ -10,7 +10,7 @@ Example of RESTful API based on PSR-15 like handlers and HTTP middleware.
 ## Installation and start
 
 - Clone repository
-- Run `composer install`
+- Run `composer install` or `composer dump autoload`
 - Run `composer start` or `php -S 127.0.0.1:8091 index.php`
 - Open of resource by address `http://127.0.0.1:8091` in the browser/Postman app
 
@@ -41,7 +41,7 @@ Start new session
     + sid: "c7542b9cb624b70a156c56f28612cdd5" (string, required)
     
 
-### GET /products/:id?sid=c7542b9cb624b70a156c56f28612cdd5
+### GET /products/:id
 
 Get one product item
 
